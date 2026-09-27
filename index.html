@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TinyTrend Creations - personalized accessories, phone cases, decorative lights and unique gifts.">
+  <title>TinyTrend Creations | Handmade With Love</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img src="images/logo.jpeg" alt="TinyTrend Creations logo">
+        <span>TinyTrend Creations</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="cart-link" href="#cart">Cart <span id="cartCount">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">HANDMADE • PERSONALIZED • WITH LOVE</p>
+          <h1>Little things that make <span>every moment special.</span></h1>
+          <p class="hero-text">Discover personalized accessories, phone cases, decorative lights and unique gifts made around your ideas and occasions.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#products">Shop Collection</a>
+            <a class="btn secondary" id="heroWhatsApp" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+          <div class="mini-points">
+            <span>✓ Custom ideas</span>
+            <span>✓ Trichy delivery</span>
+            <span>✓ Easy WhatsApp ordering</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="images/logo.jpeg" alt="TinyTrend Creations">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">EXPLORE</p>
+          <h2>Shop by category</h2>
+          <p>These are example categories. You can rename, remove or add categories later in <b>products.js</b>.</p>
+        </div>
+        <div class="category-grid" id="categoryGrid"></div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="eyebrow">OUR COLLECTION</p>
+            <h2>Featured products</h2>
+          </div>
+          <div class="filters">
+            <input id="searchInput" type="search" placeholder="Search products...">
+            <select id="categoryFilter"><option value="all">All categories</option></select>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="section custom-section" id="about">
+      <div class="container custom-grid">
+        <div>
+          <p class="eyebrow">MADE FOR YOU</p>
+          <h2>Your idea. Your style. Your creation.</h2>
+          <p>TinyTrend Creations is a personalized lifestyle and gifting brand offering creatively customised products designed around individual preferences, ideas and occasions.</p>
+          <p>From accessories and keychains to phone cases, hair accessories, decorative lights and unique gifts, we turn customer ideas into thoughtfully crafted creations.</p>
+        </div>
+        <div class="feature-list">
+          <div><span>01</span><b>Choose a product</b><small>Browse the collection and add what you like.</small></div>
+          <div><span>02</span><b>Build your cart</b><small>Review products and quantities before ordering.</small></div>
+          <div><span>03</span><b>Order on WhatsApp</b><small>Send your order details directly to TinyTrend.</small></div>
+          <div><span>04</span><b>Confirm & pay</b><small>Payment is made after WhatsApp confirmation.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section location-section">
+      <div class="container location-card">
+        <div>
+          <p class="eyebrow">CURRENTLY SERVING</p>
+          <h2>Trichy, Tamil Nadu</h2>
+          <p>We are starting with Trichy. As the business grows, delivery can be expanded across Tamil Nadu.</p>
+        </div>
+        <div class="location-badge">📍 Trichy</div>
+      </div>
+    </section>
+
+    <section class="section" id="cart">
+      <div class="container cart-section">
+        <div class="section-heading">
+          <p class="eyebrow">YOUR ORDER</p>
+          <h2>Shopping cart</h2>
+        </div>
+        <div id="cartItems" class="cart-items">
+          <div class="empty-cart">Your cart is empty. Add a product to get started.</div>
+        </div>
+        <div class="checkout">
+          <div>
+            <label for="customerName">Name</label>
+            <input id="customerName" type="text" placeholder="Your name">
+          </div>
+          <div>
+            <label for="customerPhone">Phone</label>
+            <input id="customerPhone" type="tel" placeholder="10-digit mobile number">
+          </div>
+          <div class="full">
+            <label for="customerAddress">Delivery address</label>
+            <textarea id="customerAddress" rows="3" placeholder="Enter your Trichy delivery address"></textarea>
+          </div>
+          <div class="full order-summary">
+            <strong>Total: <span id="cartTotal">₹0</span></strong>
+            <button class="btn primary" id="whatsappOrder">Place order on WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">LET'S CREATE</p>
+          <h2>Have an idea? Tell us.</h2>
+          <p>For custom requests, product questions or orders, contact TinyTrend Creations on WhatsApp or Instagram.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" id="contactWhatsApp" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn secondary" id="instagramLink" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <b>TinyTrend Creations</b>
+        <p>Handmade with love • Trichy</p>
+      </div>
+      <p>© <span id="year"></span> TinyTrend Creations</p>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
