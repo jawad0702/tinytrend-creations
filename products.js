@@ -78,7 +78,3 @@ const PRODUCTS = [
     emoji: "📱"
   }
 ];
-    image: "",
-    emoji: "🎁"
-  }
-];
