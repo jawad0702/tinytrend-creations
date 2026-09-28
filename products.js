@@ -14,7 +14,7 @@
 const STORE = {
   name: "TinyTrend Creations",
   city: "Trichy",
-  whatsapp: "917708481747", // India country code +91, no spaces
+  whatsapp: "917708481747",
   instagram: "tinytrend_creations123",
   instagramUrl: "https://www.instagram.com/tinytrend_creations123/",
   deliveryText: "Currently serving Trichy. Tamil Nadu-wide delivery can be enabled later.",
@@ -25,25 +25,37 @@ const CATEGORIES = [
   {
     id: "phone-cases",
     name: "Phone Cases",
-    description: "Personalized cases for your style",
+    description: "Stylish crochet phone cases",
     image: "images/phone-cases.svg"
   },
   {
-    id: "hair-accessories",
-    name: "Hair Accessories",
-    description: "Cute clips, bands and more",
+    id: "hair-bands",
+    name: "Hair Bands",
+    description: "Cute and stylish hair bands",
     image: "images/hair-accessories.svg"
   },
   {
-    id: "decorative-lights",
-    name: "Decorative Lights",
-    description: "Warm lights for special spaces",
-    image: "images/decorative-lights.svg"
+    id: "bouquets",
+    name: "Bouquets",
+    description: "Beautiful handmade bouquets",
+    image: "images/unique-gifts.svg"
   },
   {
-    id: "unique-gifts",
-    name: "Unique Gifts",
-    description: "Thoughtful gifts for every occasion",
+    id: "hair-clutches",
+    name: "Hair Clutches",
+    description: "Trendy hair clutches for every style",
+    image: "images/hair-accessories.svg"
+  },
+  {
+    id: "hair-pins",
+    name: "Hair Pins",
+    description: "Cute pins for your everyday look",
+    image: "images/hair-accessories.svg"
+  },
+  {
+    id: "key-chains",
+    name: "Key Chains",
+    description: "Personalized and stylish key chains",
     image: "images/unique-gifts.svg"
   }
 ];
@@ -51,33 +63,21 @@ const CATEGORIES = [
 const PRODUCTS = [
   {
     id: 1,
-    name: "Custom Floral Phone Case",
+    name: "Burgundy Bow Crochet Phone Case",
     category: "phone-cases",
-    price: 399,
-    image: "", // Example: "images/floral-phone-case.jpg"
+    price: 400,
+    image: "images/phone-case-burgundy.jpeg",
     emoji: "📱"
   },
   {
     id: 2,
-    name: "Pastel Butterfly Hair Clip",
-    category: "hair-accessories",
-    price: 99,
-    image: "",
-    emoji: "🎀"
-  },
-  {
-    id: 3,
-    name: "Warm Fairy Light Set",
-    category: "decorative-lights",
-    price: 299,
-    image: "",
-    emoji: "💡"
-  },
-  {
-    id: 4,
-    name: "Personalized Gift Box",
-    category: "unique-gifts",
-    price: 499,
+    name: "Pink Bow Crochet Phone Case",
+    category: "phone-cases",
+    price: 400,
+    image: "images/phone-case-pink.jpeg",
+    emoji: "📱"
+  }
+];
     image: "",
     emoji: "🎁"
   }
