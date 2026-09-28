@@ -69,12 +69,36 @@ const PRODUCTS = [
     image: "images/phone-case-burgundy.jpeg",
     emoji: "📱"
   },
-  {
+   {
     id: 2,
     name: "Pink Bow Crochet Phone Case",
     category: "phone-cases",
     price: 400,
     image: "images/phone-case-pink.jpeg",
     emoji: "📱"
+  },
+  {
+    id: 3,
+    name: "Red Floral Crochet Hair Band Set",
+    category: "hair-bands",
+    price: 210,
+    image: "images/red-floral-hair-band.jpeg",
+    emoji: "🌸"
+  },
+  {
+    id: 4,
+    name: "Pink Floral Crochet Hair Band Set",
+    category: "hair-bands",
+    price: 210,
+    image: "images/pink-floral-hair-band.jpeg",
+    emoji: "🌸"
+  },
+  {
+    id: 5,
+    name: "Pink Bunny Ear Hair Band",
+    category: "hair-bands",
+    price: 180,
+    image: "images/pink-bunny-hair-band.jpeg",
+    emoji: "🐰"
   }
 ];
