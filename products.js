@@ -139,10 +139,10 @@ const PRODUCTS = [
   },
   {
     id: 12,
-    name: "Pink & Red Bunny Ear Hair Band Set",
+    name: "Pink & Red Bunny Ear Hair Band Set-1pc",
     price: 120,
     category: "hair-bands",
-    image: "images/pink-red-bunny-hair-band-set.jpeg"
+    image: "images/pink-red-bunny-ear-hair-band-set-1pc.jpeg"
   },
   {
     id: 13,
