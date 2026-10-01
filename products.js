@@ -11,16 +11,6 @@
   4. Use the image filename, e.g. "butterfly-clip.jpg".
 */
 
-const STORE = {
-  name: "TinyTrend Creations",
-  city: "Trichy",
-  whatsapp: "917708481747",
-  instagram: "tinytrend_creations123",
-  instagramUrl: "https://www.instagram.com/tinytrend_creations123/",
-  deliveryText: "Currently serving Trichy. Tamil Nadu-wide delivery can be enabled later.",
-  currency: "₹"
-};
-
 const CATEGORIES = [
   {
     id: "phone-cases",
